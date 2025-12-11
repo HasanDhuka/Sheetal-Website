@@ -5,6 +5,7 @@ import { About } from '@/components/about'
 import { Testimonials } from '@/components/testimonials'
 import { Contact } from '@/components/contact'
 
+// Dynamically import Hero component with SSR disabled for Three.js
 const Hero = dynamic(() => import('@/components/hero').then(mod => ({ default: mod.Hero })), {
   ssr: false,
 })

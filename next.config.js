@@ -5,6 +5,17 @@ const nextConfig = {
   images: {
     unoptimized: process.env.NODE_ENV === 'development',
   },
+  webpack: (config, { isServer }) => {
+    // Handle Three.js
+    if (!isServer) {
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        fs: false,
+      }
+    }
+    
+    return config
+  },
 }
 
 module.exports = nextConfig
