@@ -1,7 +1,17 @@
+feat/hero-3d-landing-r3f-framer-performance
+
+feat/init-nextjs14-ts-tailwind-framer-threejs-setup
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+main
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
+feat/hero-3d-landing-r3f-framer-performance
+
+.yarn/install-state.gz
+main
 
 # testing
 /coverage
@@ -23,11 +33,15 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
+feat/hero-3d-landing-r3f-framer-performance
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+
+.env*.local
+main
 
 # vercel
 .vercel
@@ -36,8 +50,108 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+feat/hero-3d-landing-r3f-framer-performance
 # IDE
 .vscode
 .idea
 *.swp
 *.swo
+
+docs/premium-blueprint-architecture
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Production build
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# IDE & Editor
+
+# IDE and Editor
+main
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+docs/premium-blueprint-architecture
+.env.local
+.env.*.local
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Cache
+.cache/
+.eslintcache
+.parcel-cache
+.turbo
+
+# Testing
+coverage/
+.nyc_output/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Design files (large/temporary)
+*.psd
+*.ai
+*.sketch
+*.fig
+
+# Node.js
+npm-debug.log
+node_modules/
+
+# Misc
+.DS_Store
+*.pem
+
+# Bundle analysis
+.bundle-report.html
+
+
+# Dependencies
+node_modules/
+.env
+.env.local
+
+# Build and Distribution
+dist/
+build/
+*.log
+npm-debug.log*
+
+# OS
+Thumbs.db
+main
+main
+main
