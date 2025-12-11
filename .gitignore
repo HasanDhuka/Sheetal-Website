@@ -1,3 +1,4 @@
+docs/premium-blueprint-architecture
 # Dependencies
 node_modules/
 package-lock.json
@@ -12,12 +13,16 @@ out/
 .nuxt/
 
 # IDE & Editor
+
+# IDE and Editor
+main
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 .DS_Store
+docs/premium-blueprint-architecture
 .env.local
 .env.*.local
 *.sublime-project
@@ -73,3 +78,19 @@ node_modules/
 
 # Bundle analysis
 .bundle-report.html
+
+
+# Dependencies
+node_modules/
+.env
+.env.local
+
+# Build and Distribution
+dist/
+build/
+*.log
+npm-debug.log*
+
+# OS
+Thumbs.db
+main
