@@ -1,0 +1,21 @@
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dependencies
+node_modules/
+.env
+.env.local
+
+# Build and Distribution
+dist/
+build/
+*.log
+npm-debug.log*
+
+# OS
+Thumbs.db
