@@ -1,3 +1,7 @@
 {
+feat/hero-3d-landing-r3f-framer-performance
   "extends": "next/core-web-vitals"
+=======
+  "extends": ["next/core-web-vitals", "next/typescript", "prettier"]
+main
 }
