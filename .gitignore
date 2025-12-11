@@ -1,11 +1,17 @@
+feat/hero-3d-landing-r3f-framer-performance
+
 feat/init-nextjs14-ts-tailwind-framer-threejs-setup
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+main
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
+feat/hero-3d-landing-r3f-framer-performance
+
 .yarn/install-state.gz
+main
 
 # testing
 /coverage
@@ -27,7 +33,15 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
+feat/hero-3d-landing-r3f-framer-performance
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 .env*.local
+main
 
 # vercel
 .vercel
@@ -35,6 +49,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+feat/hero-3d-landing-r3f-framer-performance
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
 
 docs/premium-blueprint-architecture
 # Dependencies
@@ -131,5 +152,6 @@ npm-debug.log*
 
 # OS
 Thumbs.db
+main
 main
 main
